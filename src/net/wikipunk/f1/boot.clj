@@ -16,6 +16,11 @@
    :rdfa/uri    "https://wikipunk.net/f1/"
    :rdfa/prefix "f1"})
 
+(def fastf1
+  {:rdf/type    :rdfa/PrefixMapping
+   :rdfa/uri    "https://wikipunk.net/fastf1/"
+   :rdfa/prefix "fastf1"})
+
 (def ergast
   {:rdfa/uri    "https://redefer.rhizomik.net/xsd2owl?xsd=https://ergast.com/schemas/mrd-1.4.xsd#"
    :rdfa/prefix "ergast"
