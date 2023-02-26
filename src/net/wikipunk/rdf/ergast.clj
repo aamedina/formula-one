@@ -3,7 +3,7 @@
   {:rdf/ns-prefix-map
    {"ergast"
     "https://redefer.rhizomik.net/xsd2owl?xsd=https://ergast.com/schemas/mrd-1.4.xsd#",
-    "mrd" "#",
+    "mrd" "http://ergast.com/mrd/1.4#",
     "owl" "http://www.w3.org/2002/07/owl#",
     "rdf" "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
     "rdfs" "http://www.w3.org/2000/01/rdf-schema#",
