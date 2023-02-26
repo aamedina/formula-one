@@ -1,7 +1,10 @@
-# net.wikipunk/f1
-A new RDF vocabulary for wikipunk.net
+# net.wikipunk/formula-one
+RDF vocabulary for Formula One
 
-## Usage
+## :rdfs/seeAlso
+* https://github.com/theOehrly/Fast-F1
+
+## :dev
 
 ``` shell
 clojure -A:dev
