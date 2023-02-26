@@ -27,7 +27,15 @@
    [net.wikipunk.temple :as temple]
    [zprint.core :as zprint]
    [net.wikipunk.f1.boot :as boot]
-   [net.wikipunk.rdf.f1])
+   [net.wikipunk.rdf.f1]
+   [net.wikipunk.rdf.auto-av]
+   [net.wikipunk.rdf.auto-cc]
+   [net.wikipunk.rdf.auto-ev]
+   [net.wikipunk.rdf.auto-mo]
+   [net.wikipunk.rdf.auto-ti]
+   [net.wikipunk.rdf.auto-vc]
+   [net.wikipunk.rdf.auto-vp]
+   [net.wikipunk.rdf.auto-vs])
   (:refer-clojure :exclude [isa? descendants parents ancestors]))
 
 (set-init
