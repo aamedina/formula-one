@@ -1,9 +1,14 @@
 {:vocab  {:sc/create-fn net.wikipunk.rdf/map->UniversalTranslator
-          :sc/refs      [:fibo]
+          :sc/refs      [:fibo :fastf1]
           :init-ns      net.wikipunk.temple.init
           :ns-prefix    "net.wikipunk.rdf."
           :boot         []
           :config       {:xtdb.lucene/lucene-store
                          {:db-dir ".vocab/lucene"}}}
  :openai {:sc/create-fn net.wikipunk.openai/map->Client}
- :fibo   {:sc/create-fn net.wikipunk.fibo/map->FIBO}}
+ :fibo   {:sc/create-fn net.wikipunk.fibo/map->FIBO}
+ :fastf1 {:sc/create-fn net.wikipunk.f1.fastf1/map->FastF1
+          :cache-dir    ".fastf1/"
+          :events       []
+          :testing      [[2023 1]]}}
+

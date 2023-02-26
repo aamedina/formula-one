@@ -1,5 +1,9 @@
 {:deps
- {org.clojure/clojure
+ {clj-python/libpython-clj
+  {:mvn/version "2.024"}
+  cnuernber/dtype-next
+  {:mvn/version "10.000-beta-36"}
+  org.clojure/clojure
   {:mvn/version "1.11.1"}
   io.github.aamedina/rdf
   {:git/sha "752663a195f25985988fc93200b2cd8f25303370"}
@@ -28,4 +32,6 @@
    :extra-paths ["dev"]
    :jvm-opts    ["-XX:-OmitStackTraceInFastThrow"
                  "-XX:+HeapDumpOnOutOfMemoryError"
-                 "-Dorg.slf4j.simpleLogger.defaultLogLevel=warn"]}}}
+                 "-Dorg.slf4j.simpleLogger.defaultLogLevel=warn"
+                 "--add-modules" "jdk.incubator.foreign"
+                 "--enable-native-access=ALL-UNNAMED"]}}}
