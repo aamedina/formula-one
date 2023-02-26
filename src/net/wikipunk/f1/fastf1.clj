@@ -4,7 +4,8 @@
    [clojure.java.io :as io]
    [com.stuartsierra.component :as com]
    [libpython-clj2.require :refer [require-python]]
-   [libpython-clj2.python :as py]))
+   [libpython-clj2.python :as py]
+   [libpython-clj2.python.np-array]))
 
 (require-python '[fastf1 :as ff1])
 (require-python '[fastf1.Cache :as cache])
