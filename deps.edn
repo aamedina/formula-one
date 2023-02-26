@@ -1,8 +1,8 @@
 {:deps
  {org.clojure/clojure
   {:mvn/version "1.11.1"}
-  io.github.aamedina/rdf
-  {:local/root "../rdf"}}
+  io.github.aamedina/auto
+  {:git/sha "a7497627d0345cd6ef932ba3e6f44556b58ae6c3"}}
  :paths ["src" "classes" "resources"]
  :aliases
  {:dev
@@ -22,4 +22,4 @@
    :extra-paths ["dev"]
    :jvm-opts    ["-XX:-OmitStackTraceInFastThrow"
                  "-XX:+HeapDumpOnOutOfMemoryError"
-                 "-Dorg.slf4j.simpleLogger.defaultLogLevel=info"]}}}
+                 "-Dorg.slf4j.simpleLogger.defaultLogLevel=warn"]}}}
