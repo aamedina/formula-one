@@ -1,5 +1,7 @@
 {:deps
- {clj-python/libpython-clj
+ {camel-snake-kebab/camel-snake-kebab
+  {:mvn/version "0.4.3"}
+  clj-python/libpython-clj
   {:mvn/version "2.024"}
   cnuernber/dtype-next
   {:mvn/version "10.000-beta-36"}
