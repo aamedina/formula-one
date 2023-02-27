@@ -321,9 +321,9 @@
    :rdfs/domain :fastf1/Lap
    :rdfs/range :fastf1/PandasTimedelta})
 
-(def speedFl
+(def speedFL
   "SpeedFL"
-  {:db/ident   :fastf1/speedFl,
+  {:db/ident   :fastf1/speedFL,
    :rdf/type   :owl/ObjectProperty,
    :rdfs/label "SpeedFL",
    :rdfs/domain :fastf1/Lap
@@ -345,9 +345,9 @@
    :rdfs/domain :fastf1/Lap
    :rdfs/range :xsd/float})
 
-(def speedSt
+(def speedST
   "SpeedST"
-  {:db/ident   :fastf1/speedSt,
+  {:db/ident   :fastf1/speedST,
    :rdf/type   :owl/ObjectProperty,
    :rdfs/label "SpeedST",
    :rdfs/domain :fastf1/Lap
