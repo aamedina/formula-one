@@ -471,7 +471,7 @@
   "pos_data"
   {:db/ident :fastf1/PositionData
    :rdf/type :owl/Class
-   :rdfs/subClassOf :fastf1/CarData})
+   :rdfs/subClassOf :fastf1/Telemetry})
 
 (def status
   "Status"
